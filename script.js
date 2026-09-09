@@ -6,7 +6,9 @@ let div =document.querySelector('div');
 
 let button  = document.querySelector('button');
 button.addEventListener('click' , ()=>{
-    div.id = "weather"
+    div.id = "weatherData"
    // p.innerText = "";
-   p.innerText = "Current weather in London : Clouds"; 
+   div.innerText = "Current weather in London : Clouds";
+
+}
 })
